@@ -1,11 +1,19 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
+import TodoList from './components/TodoList';
+import AddTodo from './components/AddTodo';
+import VisibilityFilters from './components/visibilityFilters/VisibilityFilters';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React</h1>
+      
+      <AddTodo />
+      <h1>Todo List</h1>
+      <hr/>
+      <TodoList />
+      <hr/>
+      <VisibilityFilters />
     </div>
   );
 }

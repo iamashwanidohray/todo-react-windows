@@ -1,0 +1,17 @@
+
+
+.Filters {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.ListItem {
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.Active {
+    text-decoration: underline;
+    font-weight: bold;
+}
